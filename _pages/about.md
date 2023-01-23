@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I'm a second year Master's student in the Computer Science department at <a href="#">Stanford University</a>, specializing in AI & robotics.
-I got my Bachelor's Degree in Electrical Engineering at <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">University of Illiois at Urbana Champaign</a>, where I was adviced by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson"</a> and <a href="https://www.youtube.com/watch?v=7u7vIZMoXXo">Prof. Jont Allen</a>, specializing in speech signal processing & machine learning.
+I got my Bachelor's Degree in Electrical Engineering at <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">University of Illiois at Urbana Champaign</a>, where I was adviced by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson</a> and <a href="https://www.youtube.com/watch?v=7u7vIZMoXXo">Prof. Jont Allen</a>, specializing in speech signal processing & machine learning.
 
 <script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>
