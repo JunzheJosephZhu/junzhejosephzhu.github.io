@@ -1,6 +1,6 @@
 ---
 layout: default
----
+--- 
 
 <!-- about.html -->
       <div class="post">
@@ -43,12 +43,12 @@ layout: default
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
+            {%- include news.html %} 
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
@@ -66,5 +66,6 @@ layout: default
             </div>
           {%- endif %}
         </article>
+
 
 </div>

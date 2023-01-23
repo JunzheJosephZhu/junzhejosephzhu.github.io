@@ -724,3 +724,28 @@ progress {
      display: block;
      height: inherit;
  }
+
+ .extra_space {
+     margin-right: 10px;
+ }
+ /* Style the collapsible content. Note: hidden by default */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: var(--global-hover-color);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #ffffff;
+}

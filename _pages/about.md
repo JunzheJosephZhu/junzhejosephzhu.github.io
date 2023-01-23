@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a class=extra_space href='https://www.linkedin.com/in/joseph-z-38023113b/'>Linkedin</a> <a class=extra_space href='https://scholar.google.com/citations?user=ss3SR9YAAAAJ&hl=en'>Google Scholar</a> <a class=extra_space href='https://github.com/JunzheJosephZhu'>Github</a> <a href=# class="collapsible extra_space">Wechat</a> <a class="content">josephz2000</a> 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>I'm from Shanghai</p>
 
-news: true  # includes a list of news items
+news: False  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I'm a second year Master's student in the Computer Science department at <a href="#">Stanford University</a>, specializing in AI & robotics.
+I got my Bachelor's Degree in Electrical Engineering at <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">University of Illiois at Urbana Champaign</a>, where I was adviced by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson"</a> and <a href="https://www.youtube.com/watch?v=7u7vIZMoXXo">Prof. Jont Allen</a>, specializing in speech signal processing & machine learning.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>
