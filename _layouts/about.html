@@ -39,6 +39,12 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+          
+          <!-- Work -->
+          {% if page.work -%}
+            <h2><a style="color: inherit;">Work Stuff</a></h2>
+            {%- include work.html %} 
+          {%- endif %}
 
           <!-- News -->
           {% if page.news -%}
@@ -69,3 +75,4 @@ layout: default
 
 
 </div>
+<script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>
