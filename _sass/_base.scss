@@ -502,6 +502,7 @@ footer.sticky-bottom {
       }
       .logo{
         width: 80%;
+        background-color: white;
       }
       h2{
         margin-left: -15%;
@@ -917,3 +918,7 @@ progress {
   overflow: hidden;
 }
 
+.inverted{
+  transform: rotate(180deg);
+  transform-origin: 45% 50%;
+}
