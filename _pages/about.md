@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I'm a second year Master's student in the Computer Science department at <a href="#">Stanford University</a>, specializing in AI & robotics. I briefly did some research in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>, before I decided to quit doing research for a while and build my own startup. 
 
-I got my Bachelor's Degree in Electrical Engineering at <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">University of Illiois at Urbana Champaign</a>, where I was adviced by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson</a> and <a href="https://www.youtube.com/watch?v=7u7vIZMoXXo">Prof. Jont Allen</a>, specializing in speech signal processing & machine learning.
+I got my Bachelor's Degree in Electrical Engineering at <a href="https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign">University of Illiois at Urbana Champaign</a>, where I was adviced by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson</a> and <a href="https://www.youtube.com/watch?v=7u7vIZMoXXo">Prof. Jont Allen</a>, specializing in speech signal processing & machine learning. (Fun fact: it only took me 2.5 years to get that degree.)
 
 <h4>Why I didn't do a PhD<h4>
 <p><b>Q</b>: I was accepted to the PhD program at <a href="https://bair.berkeley.edu/">Berkely AI Reserach</a> with a lot of stipend and all that, but I chose to do an MS instead. Why?</p>
