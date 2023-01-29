@@ -636,6 +636,22 @@ footer.sticky-bottom {
     }
   }
 }
+// Education
+.education{
+  margin-top: 2rem;
+  .row{
+    margin-bottom: 2rem;
+  }
+  .preview {
+    min-width: 80px;
+    max-width: 400px;
+  }
+  .logo{
+    margin-right: 5px;
+    background-color: rgb(255, 254, 254);
+    height: 150px;
+  }
+}
 
 // Publications
 
