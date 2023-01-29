@@ -13,8 +13,9 @@
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
-    {%- include header.html %}
-
+    {% if site.include_header -%}
+      {%- include header.html %}
+    {%- endif %}
     <!-- Content -->
     <div class="container mt-5">
       {{ content }}
