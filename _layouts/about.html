@@ -39,16 +39,16 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-          
+
+          <!-- Education -->
+          <h2><a style="color: inherit;">Education</a></h2>
+          {%- include education.html %} 
+
           <!-- Work -->
           {% if page.work -%}
             <h2><a style="color: inherit;">Places I worked at</a></h2>
             {%- include work.html %} 
           {%- endif %}
-
-          <!-- Education -->
-          <h2><a style="color: inherit;">Education</a></h2>
-          {%- include education.html %} 
 
           <!-- News -->
           {% if page.news -%}
