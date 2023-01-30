@@ -18,7 +18,8 @@
                 <div class="col-sm-1 align-right"><img class="icon" src="/assets/img/expand_button.png"></div>
             </div>
             <div class="content2" display="none">
-                By far the most comfy job I've had. Free lunches at 15 different canteens, bi-weekly chiropractor treatment, unlimited ergonomic keyboards and <a href="https://foursquare.com/v/facebook-mpk-29/5ade50751ffed7260e208396?openPhotoId=62b240e03e8e927a2416f98a">Herman Miller Aerons</a>. They even had an ice-cream bar in office. True definition of a 9-5 job, pinnacle of The American Dream.
+                By far the most comfy job I've had. Free lunches at 15 different canteens, bi-weekly chiropractor treatment, unlimited ergonomic keyboards and <a href="https://foursquare.com/v/facebook-mpk-29/5ade50751ffed7260e208396?openPhotoId=62b240e03e8e927a2416f98a">Herman Miller Aerons</a>. They even had an ice-cream bar in office. True definition of a 9-5 job, pinnacle of The American Dream.<br>
+                I was working at Reality Lab's AI team. My job was to write <b>a distillation frameworks for activity detection models</b> running on AR glasses. Basically, the concept is that inside Facebook, we have the data & compute to train huge self-supervised "foundation models"(like VLP transformer, etc) using video-language-audio contrastive training and such such, but those models are too big to be deployed on the AR glasses. On the other hand, the "on-glass" model are small video processing neural networks(like MViT, X3D, etc), but those have lower accuracy if trained normally with supervised learning. My job was to write a framework where we can extract features & soft probability predictions from the big models, and train the smaller models using those. This is a huge performance booster, I was able to boost the mAP on a 100+ category video classification model from 0.32 to 0.49. 
             </div>
         </li>
         <li>
