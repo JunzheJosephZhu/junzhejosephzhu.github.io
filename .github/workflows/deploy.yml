@@ -21,6 +21,7 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+        bundler: '2.4.4'  # Specify the exact version of bundler to match your Gemfile.lock
     - name: Install deps
       run: |
         npm install -g mermaid.cli
