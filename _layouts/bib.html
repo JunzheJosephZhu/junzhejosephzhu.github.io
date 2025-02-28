@@ -129,6 +129,12 @@
           {{ entry.note | strip }}
         </div>
 
+        {% if entry.award %}
+        <div class="award">
+          <span style="background-color: #e53935; color: white; font-weight: 500; padding: 3px 8px; border-radius: 4px; font-size: 0.85em;">{{ entry.award }}</span>
+        </div>
+        {% endif %}
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}

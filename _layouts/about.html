@@ -40,9 +40,17 @@ layout: default
             {{ content }}
           </div>
 
+
+          <!-- Publications -->
+          {%- if page.selected_papers -%}
+            <!-- Selected papers -->
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+            {%- include selected_papers.html %}
+          {%- endif -%}
+
           <!-- Education -->
-          <h2><a href="https://www.youtube.com/watch?v=-4QhdQXqTwI">Education</a></h2>
-          {%- include education.html %} 
+          <!-- <h2><a href="https://www.youtube.com/watch?v=-4QhdQXqTwI">Education</a></h2>
+          {%- include education.html %}  -->
 
           <!-- Work -->
           {% if page.work -%}
@@ -50,16 +58,16 @@ layout: default
             {%- include work.html %} 
           {%- endif %}
 
+          <!-- Previous Experience-->
+          {%- if page.previous -%}
+            <h2><a href="{{ '/previous/' | relative_url }}" style="color: inherit;">Previous Life</a></h2>
+            {%- include previous.html -%}
+          {%- endif -%}
+
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html %} 
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-            {%- include selected_papers.html %}
           {%- endif %}
 
           <!-- Social -->

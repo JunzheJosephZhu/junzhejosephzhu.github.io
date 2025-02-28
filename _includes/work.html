@@ -7,8 +7,8 @@
                 <div class="col-sm-1 align-right"><img class="icon" src="/assets/img/expand_button.png"></div>
             </div>
             <div class="content2" display="none">
-                Quite interesting to work on, though I couldn't talk too much about it.
-                <img src="/assets/img/wiseau.gif">
+                Worked on lane data processing using probabilistic graphs. Basically there was a map of roads and a map of lanes from different vendors(in real life, a road has multiple lanes in it, in one or two directions, and they merged onto each other in many different ways), and they had somewhat mismatching coordinates and pretty different topoligies, so my job was to match those two graphs together
+                as closely as possible to provide training data for downstream neural networks.
             </div>
         </li>
         <li>
@@ -18,7 +18,6 @@
                 <div class="col-sm-1 align-right"><img class="icon" src="/assets/img/expand_button.png"></div>
             </div>
             <div class="content2" display="none">
-                By far the most comfy job I've had. Free lunches at 15 different canteens, bi-weekly chiropractor treatment, unlimited ergonomic keyboards and <a href="https://foursquare.com/v/facebook-mpk-29/5ade50751ffed7260e208396?openPhotoId=62b240e03e8e927a2416f98a">Herman Miller Aerons</a>. They even had an ice-cream bar in office. True definition of a 9-5 job, pinnacle of The American Dream.<br>
                 I was working at Reality Lab's AI team. My job was to write <b>a distillation frameworks for activity detection models</b> running on AR glasses. Basically, the concept is that inside Facebook, we have the data & compute to train huge self-supervised "foundation models"(like VLP transformer, etc) using video-language-audio contrastive training and such such, but those models are too big to be deployed on the AR glasses. On the other hand, the "on-glass" model are small video processing neural networks(like MViT, X3D, etc), but those have lower accuracy if trained normally with supervised learning. My job was to write a framework where we can extract features & soft probability predictions from the big models, and train the smaller models using those. This is a huge performance booster, I was able to boost the mAP on a 100+ category video classification model from 0.32 to 0.49. 
             </div>
         </li>
@@ -41,7 +40,8 @@
                 <div class="col-sm-1 align-right"><img class="icon" src="/assets/img/expand_button.png"></div>
             </div>
             <div class="content2" display="none">
-                In 2019 when I was a sophomore, I was really intrigued by neural networks(not the ones you train, I'm talking about the ones in the human brain) and the PDE(partial differential equation) that governs it, so I read <a href="http://jontalle.web.engr.illinois.edu/Public/Scott-Neuroscience.02.pdf">this book</a>. I wanted to do research on it, so I was planning on going to go to MIT's <a href="https://mcgovern.mit.edu/">McGovern Institue</a> to do some research in Summer 2020. However, Covid hit, and MIT completely stopped hiring staff, so I couldn't go there in person. I winded up doing some part-time remote research. I just stumbled upon the old code I wrote and decided to <a href="https://github.com/JunzheJosephZhu/metalearning_pytorch.git">open source it</a>. Maybe I'd be a neuroscience PhD by now if I was able to go there in person, who knows?
+                In 2019 when I was a sophomore, I was really intrigued by neural networks(not the ones you train, I'm talking about the ones in the human brain) and the PDE(partial differential equation) that governs it, so I read <a href="http://jontalle.web.engr.illinois.edu/Public/Scott-Neuroscience.02.pdf">this book</a>. I wanted to do research on it, so I was planning on going to go to MIT's <a href="https://mcgovern.mit.edu/">McGovern Institue</a> to do some research in Summer 2020. However, Covid hit, and MIT completely stopped hiring staff, so I couldn't go there in person. I winded up doing some part-time remote research. This was the <a href="https://github.com/JunzheJosephZhu/metalearning_pytorch.git">code</a>. 
+                <!-- Maybe I'd be a neuroscience PhD by now if I was able to go there in person, who knows? -->
             </div>
         </li>
         <li>
@@ -69,7 +69,8 @@
                 <div class="col-sm-1 align-right"><img class="icon" src="/assets/img/expand_button.png"></div>
             </div>
             <div class="content2" display="none">
-                Brunswick was my first job in America. I was getting paid $16/hour and at the time that was big money to me. I also for the first time got to work as an "engineer". I was learning things like object detection, semantic segmentation, path planning. I got the chance to work on a lot of cool projects. For one here, I am teaching a boat how to dock itself:<br>
+                <!-- Brunswick was my first job in America. I was getting paid $16/hour and at the time that was big money to me. I also for the first time got to work as an "engineer".  -->
+                I was learning things like object detection, semantic segmentation, path planning. I got the chance to work on a lot of cool projects. For one here, I am teaching a boat how to dock itself:<br>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/o-254pc2SDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
                 I also made <a href="https://youtube.com/shorts/082UIG4ZXog?feature=share">an imitation learning proof-of-concept with an omnidirectional robot for docking.</a><br>
                 I took care of a variety of other projects, like doing NLP stuff on 600k patents, write the trajectory for a drone to take videos, classifying satillite images to analyze our users, etc.

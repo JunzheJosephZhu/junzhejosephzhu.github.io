@@ -1,0 +1,7 @@
+<!-- _includes/previous.html -->
+<div class="previous">
+    {% capture previous_content %}
+    {% include_relative previous.md %}
+    {% endcapture %}
+    {{ previous_content | markdownify }}
+</div> 
