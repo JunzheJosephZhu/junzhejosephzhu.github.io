@@ -24,7 +24,7 @@ I spend most of my time doing engineering, but occasionally publish research pap
 
 - <a href="#neural-networks" class="collapsible">Neural Networks</a>
   <span class="content" style=""><br>
-  I get down to pretty basic levels of this. Back in undergrad when working on audio there wasn't many standardized architectures, so I usually wrote my own neural networks(e.g. convolutional networks to generate attention masks, implementing transformers using cupy, using Fourier transforms to implement convolutions, recursive RNNs, inference for WaveNets). Recently, things I've been doing include making a custom promptable segmentation model for food ingredients based on ViT Adapter in Detectron2, and training 3D networks that use the heat diffusion process to propagate features on meshes. 
+  I get down to pretty basic levels of this. Back in undergrad when working on audio there weren't many standardized architectures, so I usually wrote my own neural networks(e.g. convolutional networks to generate attention masks, implementing transformers using cupy, using Fourier transforms to implement convolutions, recursive RNNs, inference for WaveNets). Recently, things I've been doing include making a custom promptable segmentation model for food ingredients based on ViT Adapter in Detectron2, and training 3D networks that use the heat diffusion process to propagate features on meshes. 
   <br></span>
 - <a href="#generative-models" class="collapsible">Information theory/Generative Models</a>
   <span class="content" style=""><br>
