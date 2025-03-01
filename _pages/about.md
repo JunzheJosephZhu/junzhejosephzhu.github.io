@@ -6,7 +6,7 @@ subtitle: <a class=extra_space href='https://www.linkedin.com/in/joseph-junzhe-z
 
 profile:
   align: right
-  image: josephzhu.png
+  image: burning man profile picture.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
