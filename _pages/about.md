@@ -18,6 +18,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 I'm a startup founder working on robotics. Over the past 3 years, I have been a cofounder and the only software engineer at Tepan, developing software for a stovetop bimanual robot that autonomously takes care of everything from ingredient prepping, cooking, seasoning, to self-cleaning.
 
+Prior to founding Tepan, I was a Stanford CS dropout and a Berkeley EECS PhD admit. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>.
+
 #### My tech stack nowadays
 
 I spend most of my time doing engineering, but occasionally publish research papers.<br> Click each one to expand:
