@@ -21,9 +21,7 @@ I'm a startup founder working on robotics. Over the past 3 years, I have been a 
 Prior to founding Tepan, I was a Stanford CS dropout and a Berkeley EECS PhD admit. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>.
 
 #### My tech stack nowadays
-
-I spend most of my time doing engineering, but occasionally publish research papers.<br> Click each one to expand:
-
+ Click each one to expand:
 - <a href="#neural-networks" class="collapsible">Neural Networks</a>
   <span class="content" style=""><br>
   I get down to pretty basic levels of this. Back in undergrad when working on audio there weren't many standardized architectures, so I usually wrote my own neural networks(e.g. convolutional networks to generate attention masks, implementing transformers using cupy, using Fourier transforms to implement convolutions, recursive RNNs, inference for WaveNets). Recently, things I've been doing include making a custom promptable segmentation model for food ingredients based on ViT Adapter in Detectron2, and training 3D networks that use the heat diffusion process to propagate features on meshes. 
