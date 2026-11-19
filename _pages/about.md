@@ -20,6 +20,9 @@ I build AI agents and robots. Right now I'm a Member of Technical Staff at <b>Ju
 
 Prior to founding Tepan, I declined a PhD offer from Berkeley AI(BAIR) and attended the master's program in Stanford CS, although I later dropped out after raising funding for my robotics startup. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>.
 
+#### My research interest
+I’m interested in how agents can develop practical judgment through experience. This means remembering what they learn, connecting new information to existing knowledge, revising their understanding when corrected, and recognizing when past lessons apply to new situations. I want to explore how models and agent harnesses can support this learning, so agents can build expertise and take responsibility for a job.
+
 #### My tech stack
  Click each one to expand:
 - <a href="#ai-agents" class="collapsible">AI Agents</a>
