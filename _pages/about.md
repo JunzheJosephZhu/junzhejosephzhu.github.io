@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I build AI agents and robots. Right now I'm a Member of Technical Staff at <b>Jump Trading</b> in Singapore, where I use AI agents to boost trading revenue. Before that I was a founding researcher at <b>AGI Inc</b>, training computer-use agents. And before <i>that</i>, I spent 3+ years as cofounder and the only software engineer at <b>Tepan</b>, writing every line of software for a stovetop bimanual robot that autonomously takes care of everything from ingredient prepping, cooking, seasoning, to self-cleaning.
 
-Prior to founding Tepan, I quit on PhD from Berkeley AI(BAIR) and briefly joined Stanford. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>.
+Prior to founding Tepan, I declined a PhD offer from Berkeley AI(BAIR) and attended the master's program in Stanford CS. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>.
 
 #### My tech stack
  Click each one to expand:
