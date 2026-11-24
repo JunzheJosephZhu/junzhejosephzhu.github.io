@@ -21,7 +21,7 @@ I’m an AI researcher focused on training agents with reinforcement learning an
 I declined a PhD offer from Berkeley AI(BAIR) and attended the master's program in Stanford CS, although I later dropped out after raising funding for my robotics startup. I did some research under the supervision of Jiajun Wu in <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab</a>(directed by Fei-Fei Li), and with Sanmi Koyejo in <a href="https://ilwiki.stanford.edu/doku.php?id=snap-servers:snap-servers">SNAP</a>. Before that, I graduated from UIUC in Electrical Engineering in 2.5 years with a top GPA and published a few papers, advised by <a href="http://www.ifp.illinois.edu/~hasegawa/">Prof. Mark Hasegawa-Johnson</a>.
 
 #### My research interest
-The problem I’m most excited to solve is letting agents learn like humans when they onboard a job. Specifically, how can they learn from experience and mistakes, connect new information to existing knowledge, revise their understanding when corrected, accumulate these learnings, and recall them effectively in the future? I’m eager to expand the frontier of agent capabilities by tackling this problem.
+The problem I’m most excited to solve is letting agents learn like humans when they onboard a job. Agents can solve IMO problems but can’t do the job of a quant. This is because they don’t effectively learn job-specific context over time through experience. Specifically, how can they learn from experience and mistakes, connect new information to existing knowledge, revise their understanding when corrected, accumulate these learnings, and recall them effectively in the future? I’m eager to expand the frontier of agent capabilities by tackling this problem.
 
 #### My tech stack
  Click each one to expand:
